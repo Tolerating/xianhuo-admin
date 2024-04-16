@@ -24,14 +24,14 @@ export default [
   },
   {
     path: '/welcome',
-    name: 'welcome',
+    name: '欢迎使用',
     icon: 'smile',
     component: './Welcome',
   },
   {
     path: '/complain',
     name: '投诉管理',
-    icon: 'dislike',
+    icon: 'dislikeFilled',
     routes: [
       {
         path: '/complain',
@@ -52,7 +52,7 @@ export default [
 {
   path: '/complainHistory',
   name: '投诉历史',
-  icon: 'dislike',
+  icon: 'calendarFilled',
   routes: [
     {
       path: '/complainHistory',
@@ -73,7 +73,7 @@ export default [
 {
   path: '/afterService',
   name: '售后管理',
-  icon: 'dislike',
+  icon: 'editFilled',
   routes: [
     {
       path: '/afterService',
@@ -94,7 +94,7 @@ export default [
 {
   path: '/productManage',
   name: '商品管理',
-  icon: 'dislike',
+  icon: 'editFilled',
   routes: [
     {
       path: '/productManage',
